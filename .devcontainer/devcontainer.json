@@ -1,0 +1,26 @@
+{
+  "name": "Fundamentos de Programación (Java)",
+
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "vscjava.vscode-java-pack",
+        "hediet.vscode-drawio",
+        "bierner.markdown-mermaid"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "java.jdt.ls.java.home": "/usr/lib/jvm/msopenjdk-21"
+      }
+    }
+  },
+
+  "postCreateCommand": "java --version",
+
+  "remoteUser": "vscode"
+}
+
