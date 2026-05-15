@@ -1,2 +1,8 @@
 ./miTest/AppTest.java
+./miPrincipal/TestAnalisisEdades.java
+./miPrincipal/TestFrecuenciaElementos.java
+./miPrincipal/TestMenuArreglos.java
+./miPrincipal/TestBusquedaLineal.java
+./miPrincipal/TestPromMayores.java
 ./miPrincipal/Principal.java
+./miPrincipal/TestSumaFilasMatriz.java
