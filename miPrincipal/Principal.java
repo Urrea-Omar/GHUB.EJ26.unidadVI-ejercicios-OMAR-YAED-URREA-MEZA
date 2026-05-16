@@ -1,4 +1,9 @@
 package miPrincipal;
+/*
+Autor: Urrea Meza Omar Yaed
+Fecha: 08/05/2026
+MENU PRINCIPAL
+ */
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
@@ -10,15 +15,15 @@ public class Principal {
             opc = Sc.nextInt();
             switch(opc){
                 case 1:
-                    System.out.println("Ejercicio 1");
+                    TestClasifiCalifi.inicio();
                     System.exit(0);
                 break;
                 case 2:
-                    System.out.println("Ejercicio 2");
+                    TestMayorMenor.inicio();
                     System.exit(0);
                 break;
                 case 3:
-                    System.out.println("Ejercicio 3");    
+                    TestParImpar.inicio();
                     System.exit(0);
                 break;
                 case 4:
@@ -26,7 +31,7 @@ public class Principal {
                     System.exit(0);
                 break;
                 case 5:
-                    System.out.println("Ejercicio 5");
+                    TestOrdBurbuja.inicio();
                     System.exit(0);
                 break;
                 case 6:
@@ -64,11 +69,11 @@ public class Principal {
         System.out.println("********************************");
         System.out.println("          MENU MAESTRO          ");
         System.out.println("********************************");
-        System.out.println("1"); 
-        System.out.println("2");
-        System.out.println("3");
+        System.out.println("1) Clasificación de Calificaciones");
+        System.out.println("2) Mayor y Menor de un arreglo");
+        System.out.println("3) Par o Impar");
         System.out.println("4 ) Promedio y Mayores al Promedio");
-        System.out.println("5"); 
+        System.out.println("5) Ordenar Burbuja");
         System.out.println("6) Busqueda Lineal");
         System.out.println("7) Frecuencia de Elementos");
         System.out.println("8) Suma de Filas de una Matriz");

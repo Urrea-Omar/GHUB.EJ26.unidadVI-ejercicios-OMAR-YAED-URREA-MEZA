@@ -1,8 +1,12 @@
 ./miTest/AppTest.java
 ./miPrincipal/TestAnalisisEdades.java
+./miPrincipal/TestOrdBurbuja.java
 ./miPrincipal/TestFrecuenciaElementos.java
 ./miPrincipal/TestMenuArreglos.java
+./miPrincipal/TestMayorMenor.java
 ./miPrincipal/TestBusquedaLineal.java
 ./miPrincipal/TestPromMayores.java
+./miPrincipal/TestParImpar.java
 ./miPrincipal/Principal.java
+./miPrincipal/TestClasifiCalifi.java
 ./miPrincipal/TestSumaFilasMatriz.java
